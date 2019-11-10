@@ -27,6 +27,19 @@ void setup()
 
 void loop()
 {
+
+  if (classGates.posGates.loop1 == LOW)
+  {
+    Serial.println("LOOP1 FIXED!!!");
+  }
+  if (classGates.posGates.loop2 == LOW)
+  {
+    Serial.println("LOOP2 FIXED!!!");
+  }
+  if (classGates.posGates.loop3 == LOW)
+  {
+    Serial.println("LOOP3 FIXED!!!");
+  }
 }
 
 void lcdMain()
