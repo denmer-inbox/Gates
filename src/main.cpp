@@ -20,7 +20,7 @@ void setup()
   lcd.setCursor(0, 0); //  Устанавливаем курсор в позицию (0 столбец, 0 строка)
   lcd.print("KOHTPOЛЛЕP BOPOT");
 
-  delay(5000);
+  delay(4000);
 
   lcdMain();
 }
