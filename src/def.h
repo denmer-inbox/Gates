@@ -62,6 +62,9 @@ public:
 
 class LogicNight : Gates
 {
+    void Job()
+    {
+    }
 };
 
 void settingPins()
