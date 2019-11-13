@@ -1,14 +1,31 @@
+#ifndef _DEF_H
+#define _DEF_H
 
 #include "def.h"
 
-extern bool gUOpen, gUClose, gDOpen, gDClose, loop1, loop2, loop3;
+#endif
+
+#define timerTraf 20000
+extern bool gUOpen, gUClose, gDOpen, gDClose, loop1, loop2, loop3, sensorWait;
 
 LCD_1602_RUS lcd(0x27, 16, 2);
 
+DS1302 rtc(A3, A4, A5);
+
 Gates classGates;
+flagTime ft1;
 
 void setup()
 {
+  
+#pragma region setup
+
+  rtc.halt(false);
+  rtc.writeProtect(false);
+  rtc.setDOW(FRIDAY);
+  rtc.setDate(10, 11, 2019);
+  rtc.setTime(22, 0, 0);
+
   settingPins(); // выставляем состояния пинов IO
 
   classGates.getPosGates(); //получаем значения пинов в переменные boolean
@@ -23,24 +40,39 @@ void setup()
   delay(4000);
 
   lcdMain();
+#pragma endregion
 }
 
 void loop()
 {
 
-  if (classGates.posGates.loop1 == LOW)
+  if (!getSensor && posGates.sensorWait == 0) //если кнопка пульта верхн ворот нажата
   {
-    Serial.println("LOOP1 FIXED!!!");
+    posGates.sensorWait = 1;           // блокирует повторное использования этого условия
+    posGates.gUOpen = 1;               // передача управления условию ожидания открытия верхн ворот
+    traffic(1);                        // вкл. светофор проезд вниз
+    // posGates.timerTraffic = timerTraf; // устанолен таймер работы светофора
+    // delayTime = millis();              // время начала отсчета таймера
   }
-  if (classGates.posGates.loop2 == LOW)
+
+  if (posGates.gUOpen == 1) // ожидание открытия верхн ворот
   {
-    Serial.println("LOOP2 FIXED!!!");
+    if (ft1.work(timerTraf)) // если истекло время таймера
+    {
+      if (!getUpClose)
+      {
+        // delayTime = millis();         // и верхние ворота не закрыты, добавляем к таймеру 6 сек.
+        // posGates.timerTraffic = 6000; //
+        ft1.timeadd(6000);
+      }
+    }
   }
-  if (classGates.posGates.loop3 == LOW)
+  if (!getUpOpen) //если сработал датчик - верхн ворота открыты
   {
-    Serial.println("LOOP3 FIXED!!!");
+    relayDownGatesH; // открываем нижние ворота
   }
 }
+
 
 void lcdMain()
 {
