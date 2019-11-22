@@ -1,0 +1,10 @@
+F:\С# PROJECTS\Logic Gates C#\bin\Release\Logic Gates.exe.config
+F:\С# PROJECTS\Logic Gates C#\bin\Release\Logic Gates.exe
+F:\С# PROJECTS\Logic Gates C#\bin\Release\Logic Gates.pdb
+F:\С# PROJECTS\Logic Gates C#\obj\Release\Logic Gates.csprojAssemblyReference.cache
+F:\С# PROJECTS\Logic Gates C#\obj\Release\Logic_Gates.Form1.resources
+F:\С# PROJECTS\Logic Gates C#\obj\Release\Logic_Gates.Properties.Resources.resources
+F:\С# PROJECTS\Logic Gates C#\obj\Release\Logic Gates.csproj.GenerateResource.cache
+F:\С# PROJECTS\Logic Gates C#\obj\Release\Logic Gates.csproj.CoreCompileInputs.cache
+F:\С# PROJECTS\Logic Gates C#\obj\Release\Logic Gates.exe
+F:\С# PROJECTS\Logic Gates C#\obj\Release\Logic Gates.pdb
