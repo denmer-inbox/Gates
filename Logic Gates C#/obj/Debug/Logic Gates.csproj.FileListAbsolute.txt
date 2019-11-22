@@ -1,0 +1,29 @@
+F:\C#_ProJ\Logic Gates\bin\Debug\Logic Gates.exe.config
+F:\C#_ProJ\Logic Gates\bin\Debug\Logic Gates.exe
+F:\C#_ProJ\Logic Gates\bin\Debug\Logic Gates.pdb
+F:\C#_ProJ\Logic Gates\obj\Debug\Logic Gates.csprojAssemblyReference.cache
+F:\C#_ProJ\Logic Gates\obj\Debug\Logic_Gates.Form1.resources
+F:\C#_ProJ\Logic Gates\obj\Debug\Logic_Gates.Properties.Resources.resources
+F:\C#_ProJ\Logic Gates\obj\Debug\Logic Gates.csproj.GenerateResource.cache
+F:\C#_ProJ\Logic Gates\obj\Debug\Logic Gates.exe
+F:\C#_ProJ\Logic Gates\obj\Debug\Logic Gates.pdb
+F:\С# PROJECTS\Logic Gates C#\bin\Debug\Logic Gates.exe.config
+F:\С# PROJECTS\Logic Gates C#\bin\Debug\Logic Gates.exe
+F:\С# PROJECTS\Logic Gates C#\bin\Debug\Logic Gates.pdb
+F:\С# PROJECTS\Logic Gates C#\obj\Debug\Logic_Gates.Form1.resources
+F:\С# PROJECTS\Logic Gates C#\obj\Debug\Logic_Gates.Properties.Resources.resources
+F:\С# PROJECTS\Logic Gates C#\obj\Debug\Logic Gates.csproj.GenerateResource.cache
+F:\С# PROJECTS\Logic Gates C#\obj\Debug\Logic Gates.exe
+F:\С# PROJECTS\Logic Gates C#\obj\Debug\Logic Gates.pdb
+F:\C#_ProJ\Logic Gates C#\bin\Debug\Logic Gates.exe.config
+F:\C#_ProJ\Logic Gates C#\bin\Debug\Logic Gates.exe
+F:\C#_ProJ\Logic Gates C#\bin\Debug\Logic Gates.pdb
+F:\C#_ProJ\Logic Gates C#\obj\Debug\Logic Gates.csprojAssemblyReference.cache
+F:\C#_ProJ\Logic Gates C#\obj\Debug\Logic_Gates.Form1.resources
+F:\C#_ProJ\Logic Gates C#\obj\Debug\Logic_Gates.Properties.Resources.resources
+F:\C#_ProJ\Logic Gates C#\obj\Debug\Logic Gates.csproj.GenerateResource.cache
+F:\C#_ProJ\Logic Gates C#\obj\Debug\Logic Gates.exe
+F:\C#_ProJ\Logic Gates C#\obj\Debug\Logic Gates.pdb
+F:\С# PROJECTS\Logic Gates C#\obj\Debug\Logic Gates.csproj.CoreCompileInputs.cache
+F:\С# PROJECTS\Logic Gates C#\obj\Debug\Logic Gates.csprojAssemblyReference.cache
+F:\С# PROJECTS\Logic Gates C#\obj\Debug\Logic Gates.g.resources
